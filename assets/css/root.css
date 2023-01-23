@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+.ff {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 24px;
+    --fs-xxl: 36px;
+    --fs-3xl: 48px;
+}
+
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.text_hvr:hover {
+    -webkit-text-stroke-width: 0.6px;
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-xsm: 12px;
+        --fs-sm: 14px;
+        --fs-md: 14px;
+        --fs-lg: 20px;
+        --fs-xl: 24px;
+        --fs-xxl: 36px;
+        --fs-3xl: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs-xsm: 12px;
+        --fs-sm: 14px;
+        --fs-md: 14px;
+        --fs-lg: 14px;
+        --fs-xl: 24px;
+        --fs-xxl: 20px;
+        --fs-3xl: 48px;
+    }
+
+}
